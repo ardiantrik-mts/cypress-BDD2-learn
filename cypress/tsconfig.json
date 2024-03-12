@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "lib": ["es5", "dom"],
+      "types": ["cypress", "node", "cypress-xpath"],
+    },
+    "include": [
+        "**/*.ts",
+        "../cypress.d.ts"
+    ],
+    // "exclude": ["cypress.config.ts", "cypress", "node_modules"]
+}

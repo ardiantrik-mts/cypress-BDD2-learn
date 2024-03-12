@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "baseUrl": "/",
+        "esModuleInterop": true,
+        "preserveValueImports": false,
+        "module": "node16",
+        "moduleResolution": "node16",
+      },
+    "include": [
+        "src",
+        "./cypress.d.ts"
+    ]
+}

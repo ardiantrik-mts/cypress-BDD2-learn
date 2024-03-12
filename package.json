@@ -1,0 +1,31 @@
+{
+  "name": "cypress-bdd2-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardiantrik-mts/cypress-BDD2-learn.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ardiantrik-mts/cypress-BDD2-learn/issues"
+  },
+  "homepage": "https://github.com/ardiantrik-mts/cypress-BDD2-learn#readme",
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^13.6.6",
+    "cypress-xpath": "^2.0.1",
+    "esbuild": "^0.20.1",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.2"
+  }
+}
